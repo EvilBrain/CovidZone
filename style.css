@@ -1,0 +1,31 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+html, body, #mapid {
+    height: 100%;
+    width: 100vw;
+}
+
+#searchbox{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+    padding: 5px;
+    font-size: 1rem;
+    width: 20%;
+    min-width: 250px;
+    border: 2px solid rgba(0,0,0,0.2);
+    border-radius: 2px;
+}
+
+.ui-menu.ui-autocomplete {
+    z-index: 999;
+}
+
+.ui-state-active {
+    background: rgb(158, 158, 158) !important;
+    border: rgba(0,0,0,0.2) !important;
+}
